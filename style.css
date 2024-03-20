@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* common style */
+:root{
+    --color1: #7d7987;
+    --color2: #fff;
+
+}
+
+/* universal style */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* all body style */
+body{
+    font-family: "Mulish", sans-serif;
+}
+
+/* container style */
+.container{
+    max-width: 1360px;
+    margin: 0 80px;
+}
+
+/* ---------------------------
+    navbar section style
+============================== */
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: var(--color2);
+    padding: 30px 0;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    padding-left: 30px;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    color: var(--color1);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+}
+
+.menu li a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #1f1534;
+    transition: 0.4s ease-in-out;
+}
+
+.menu li a:hover,
+.menu li a:hover::after{
+    width: 100%;
+    color: #1f1534;
+}
