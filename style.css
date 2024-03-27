@@ -34,7 +34,8 @@ nav {
     top: 0;
     z-index: 9999;
     width: 100%;
-    background: #ECF9FF
+    background: #fff;
+    padding: 20px;
 }
 
 .nav-bar {
@@ -46,8 +47,32 @@ nav {
     position: relative;
 }
 
+button {
+    color: #fff;
+    background: #060640;
+    border-radius: 8px;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #060640d2;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
 .menu {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu li {
@@ -55,7 +80,6 @@ nav {
 }
 
 .menu li a {
-    display: block;
     text-decoration: none;
     color: var(--color1);
     text-align: center;
@@ -78,7 +102,7 @@ nav {
 .menu li a:hover,
 .menu li a:hover::after {
     width: 100%;
-    color: #1f1534;
+    color: #00E5CC;
 }
 
 .open-menu,
@@ -107,7 +131,7 @@ nav {
     banner section style
 ============================== */
 
-.wrapper{
+.wrapper {
     background-image: url('images/element.svg');
     background-repeat: no-repeat;
     background-position: 0 110px;
@@ -155,22 +179,22 @@ nav {
     transition: all 0.3s ease-in-out;
 }
 
-.header-btn:hover{
+.header-btn:hover {
     background-color: #0d6df3;
 }
 
-.dis-flex{
+.dis-flex {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.header-img{
+.header-img {
     width: 600px;
     flex-shrink: 0;
 }
 
-.header-img img{
+.header-img img {
     max-width: 100%;
     height: auto;
 }
@@ -183,15 +207,15 @@ nav {
 
 
 @media screen and (max-width: 600px) {
-    nav{
+    nav {
         left: 0;
     }
 
-    .container{
+    .container {
         margin: 0 15px;
     }
 
-    .menu{
+    .menu {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -205,43 +229,44 @@ nav {
         z-index: 100;
     }
 
-    .menu li{
+    .menu li {
         margin-top: 40px;
     }
 
-    .menu li a{
+    .menu li a {
         padding: 10px;
     }
 
     .open-menu,
-    .close-menu{
+    .close-menu {
         display: block;
     }
 
-    #check:checked ~ .menu{
+    #check:checked~.menu {
         right: 0;
     }
 
-    .header-container{
+    .header-container {
         flex-direction: column-reverse;
         align-items: baseline;
         gap: 30px;
         flex-wrap: wrap;
     }
 
-    .header-content{
+    .header-content {
         width: 100%;
         padding: 15px;
     }
 
-    .header-title{
+    .header-title {
         font-size: 38px;
     }
-    .header-pera{
+
+    .header-pera {
         text-align: justify;
     }
 
-    .header-img img{
+    .header-img img {
         width: 65%;
         margin: 0 15px;
     }
