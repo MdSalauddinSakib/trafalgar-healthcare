@@ -171,11 +171,6 @@ button:hover {
     margin-bottom: 50px;
 }
 
-.header-img {
-    width: 100%;
-    flex-shrink: 0;
-}
-
 .header-img img {
     max-width: 100%;
     height: auto;
