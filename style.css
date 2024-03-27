@@ -21,8 +21,8 @@ body {
 
 /* container style */
 .container {
-    max-width: 1360px;
-    margin: 0 80px;
+    padding: 20px;
+    background: #ECF9FF;
 }
 
 /* ---------------------------
@@ -30,10 +30,11 @@ body {
 ============================== */
 
 nav {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     z-index: 9999;
     width: 100%;
+    background: #ECF9FF
 }
 
 .nav-bar {
@@ -43,8 +44,6 @@ nav {
     align-items: center;
     list-style: none;
     position: relative;
-    background-color: var(--color2);
-    padding: 30px 0;
 }
 
 .menu {
