@@ -315,11 +315,20 @@ h3 {
     }
 
     .how-it-works {
-        padding: 0 20px;
+        padding: 0 10px;
         margin-bottom: 102px;
     }
 
-    .process {
+    .process-box{
+        width: 100%;
+    }
+
+    .process,
+    .about-banner {
         flex-direction: column;
+    }
+
+    .about-img img{
+        width: 100%;
     }
 }
