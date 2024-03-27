@@ -21,7 +21,7 @@ body {
 
 /* container style */
 .container {
-    padding: 20px;
+    padding: 20px 50px;
     background: #ECF9FF;
 }
 
@@ -127,7 +127,7 @@ button:hover {
     display: none;
 }
 
-.video-btn{
+.video-btn {
     display: flex;
     align-items: center;
 }
@@ -150,10 +150,10 @@ button:hover {
 
 .header-title {
     font-family: "Mulish", sans-serif;
-    color: var(--Primary, #060640);
+    color: #060640;
     font-size: 50px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 65px;
 }
 
@@ -173,6 +173,44 @@ button:hover {
 
 .header-img img {
     max-width: 100%;
+    height: auto;
+}
+
+/* how-it-works section style */
+
+.how-it-works {
+    padding: 0 50px;
+    margin-bottom: 102px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 120px 0 80px;
+}
+
+.process {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.process-box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 14px;
+    border: 2px solid rgba(6, 6, 64, 0.507);
+    color: var(--Primary, #060640);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.process-box img {
+    width: 80px;
     height: auto;
 }
 
