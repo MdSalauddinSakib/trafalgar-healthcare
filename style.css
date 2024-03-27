@@ -325,6 +325,60 @@ h3 {
     background: #fff;
 }
 
+footer {
+    padding: 20px 50px;
+    background: #060640;
+}
+
+footer p {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+footer p span {
+    color: #00E5CC;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
+    color: var(--Paragraph, #9090A7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.last-fooer{
+    background: #000020;
+}
+
+.last-fooer div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-fooer div p{
+    font-size: 16px;
+}
 
 
 
@@ -412,11 +466,16 @@ h3 {
     .process,
     .about-banner,
     .package-cart,
-    .subscribe {
+    .subscribe,
+    .footer-list {
         flex-direction: column;
     }
 
     .about-img img {
         width: 100%;
+    }
+
+    .last-fooer div p{
+        font-size: 8px;
     }
 }
