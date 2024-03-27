@@ -178,7 +178,7 @@ button:hover {
 
 /* how-it-works section style */
 
-.how-it-works {
+.section-style {
     padding: 0 50px;
     margin-bottom: 102px;
 }
@@ -214,7 +214,29 @@ button:hover {
     height: auto;
 }
 
+/* about section style */
 
+.about-banner {
+    display: flex;
+}
+
+.about-cart {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: var(--Primary, #060640);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.about-cart img {
+    width: 70px;
+    height: 60px;
+}
 
 
 
@@ -222,6 +244,11 @@ button:hover {
 
 
 @media screen and (max-width: 600px) {
+    .container {
+        padding: 20px 0px;
+        background: #ECF9FF;
+    }
+
     nav {
         left: 0;
     }
@@ -266,6 +293,7 @@ button:hover {
         align-items: baseline;
         gap: 30px;
         flex-wrap: wrap;
+        margin: 0;
     }
 
     .header-content {
@@ -284,5 +312,14 @@ button:hover {
     .header-img img {
         width: 100%;
         margin: 0 15px;
+    }
+
+    .how-it-works {
+        padding: 0 20px;
+        margin-bottom: 102px;
+    }
+
+    .process {
+        flex-direction: column;
     }
 }
