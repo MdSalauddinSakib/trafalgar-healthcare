@@ -299,6 +299,13 @@ h3 {
     line-height: 28px;
 }
 
+/*--------- Global  promotion section ---------*/
+
+.global-img{
+    width: 100%;
+    background: url(images/Frame.png);
+}
+
 
 
 
